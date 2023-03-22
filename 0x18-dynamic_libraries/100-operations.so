@@ -1,5 +1,12 @@
+#!/bin/bash
+#include <main.h>
 #include <stdio.h>
-
+/**
+ * Calculates the factorial of a number.
+ *
+ * @param n The number to calculate the factorial of.
+ * @return The factorial of the given number.
+ */
 int factorial(int n) {
     if (n <= 1) {
         return 1;
