@@ -1,16 +1,24 @@
 #!/bin/bash
 #include <main.h>
 #include <stdio.h>
-/**
- * Calculates the factorial of a number.
- *
- * @param n The number to calculate the factorial of.
- * @return The factorial of the given number.
- */
-int factorial(int n) {
-    if (n <= 1) {
-        return 1;
-    }
-    return n * factorial(n - 1);
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int sub(int a, int b) {
+    return a - b;
+}
+
+int mul(int a, int b) {
+    return a * b;
+}
+
+int div(int a, int b) {
+    return a / b;
+}
+
+int mod(int a, int b) {
+    return a % b;
 }
 
